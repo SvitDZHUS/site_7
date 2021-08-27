@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+	box-sizing: border-box;
+    transition-duration: 0.40s;
+}
+
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins";
+	font-weight: 400;
+    
+    background-color: #000;
+}
+
+img {
+	max-width: 100%;
+}
+
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn-reset {
+	padding: 0;
+	border: none;
+	font-family: "Poppins";
+	background-color: transparent;
+	cursor: pointer;
+}
+
+
+
+:root {
+    --background-color: #E5E5E5;
+    --purple: #725BA1;
+}
+
+
+
+
+
+.header {
+    
+}
+
+.header-container {
+    max-width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 90px;
+}
+
+.container {
+}
+
+.header-logo {
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.nav {
+    display: flex;
+}
+
+.list-reset {
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-link {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nav-link:hover{
+    transform: translate(0px, -5px);
+}
+
+.hero {
+    margin-bottom: 100px;
+   
+}
+
+.hero-container {
+
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 110px 50px 30px 40px;
+    background: url('../img/content/hero.png') center right / 700px 700px  no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.hero-content {
+    color: #fff;
+    max-width: 820px;
+}    
+
+.hero-slogan {
+    background-color: #1a1a1a;
+    width: 330px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+}
+
+.slogan {
+}
+
+.hero-label {
+    font-weight: 600;
+    font-size: 10px;
+    width: 46px;
+    height: 26px;
+    background-color: #25AB75;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.hero-info {
+    font-size: 12px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 180px;
+    margin: 0;
+    line-height: 170px;
+    margin-bottom: 40px;
+    letter-spacing: 0px;
+}
+
+.title {
+}
+
+.hero-descr {
+    font-size: 16px;
+    margin: 0;
+    max-width: 600px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+.hero-links {
+    display: flex;
+    padding-left: 10px;
+}
+
+.hero-item {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.hero-item:last-child{
+    margin-right: 0;
+}
+
+.hero-item:hover{
+    background-color: #25AB75;
+}
+
+
+
+.hero-link {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.hero-gallery {
+
+}
+
+.hero-tips {
+    
+
+}
+
+.hero-tip {
+    width: 166px;
+    height: 98px;
+    border-radius: 20px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-caption {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.hero-tip:nth-child(odd){
+    color: #FFE642;
+    margin-bottom: 20px;
+}
+
+.hero-tip:nth-child(even){
+    color: #FB1351;
+}
+
+.hero-text {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 13px;
+    margin: 0;
+}
+
+
+
+
+.exercises {
+    color: #fff;
+    padding: 0 20px;
+    margin-bottom: 100px;
+
+}
+
+.exercises-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.exercises-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.exercises-title {
+    font-weight: 600;
+    font-size: 35px;
+
+}
+
+.exercises-link {
+    font-size: 12px;
+    color: #fff;
+}
+
+.exercises-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.exercises-card {
+}
+
+.exercises-frame {
+    position: relative;
+    max-width: 373px;
+    max-height: 250px;
+}
+
+.exercises-img {
+    border-radius: 10px;
+}
+
+.exercises-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    width: 72px;
+    height: 29px;
+    background-color: #000;
+    border-top-left-radius: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.exercises-caption {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 45px;
+    margin: 0;
+    text-shadow: 3px 3px 8px #000, 5px 5px 8px #000, 3px 3px 5px #000;
+    position: relative;
+    bottom: 20px;
+    padding-left: 20px;
+}
+
+.exercises-descr {
+    font-weight: 400;
+    font-size: 13px;
+    position: relative;
+    bottom: 25px;
+    padding-left: 20px;
+}
+
+
+
+
+.workout {
+    position: relative;
+}
+
+.workout-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 130px;
+
+}
+
+.container {
+    color: #fff;
+    
+}
+
+.workout-title {
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 130px;
+    margin: 0;
+    max-width: 520px;
+    position: relative;
+    z-index: 2;
+}
+
+.workout-img{
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+}
+
+.workout-info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #1a1a1a;
+    width: 1000px;
+    height: 730px;
+    padding: 130px 0 0 200px;
+}
+
+.workout-descr {
+    font-size: 25px;
+    line-height: 50px;
+    max-width: 560px;
+}
+
+.workout-links {
+}
+
+.workout-item {
+}
+
+.workout-link {
+}
+
+
+.photos {
+    position: relative;
+    bottom: -200px;
+}
+
+.photos-container {
+    position: relative;
+    bottom: 250px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 5fr 5fr 8fr;
+    grid-template-rows: 3fr 5fr 5fr 2fr;
+    grid-row: 3 / span 2;
+}
+
+.photos-container img{
+    border-radius: 10px;
+}
+
+.photo--samantha {
+    grid-row-start: 2;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.photos-info--samantha{
+    grid-row-start: 3;
+    grid-column-start: 1;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.photo--karen {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+.photos-info--karen{
+    grid-row-start: 4;
+    grid-column-start: 2;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.photo--jonathan {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    align-self: flex-end;
+    justify-self: flex-start;
+}
+
+.photos-info--jonathan{
+    grid-row-start: 3;
+    grid-column-start: 3;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.photos-name{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    line-height: 25px;
+    padding-left: 15px;
+}
+
+.photos-job{
+    font-size: 14px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+
+
+
+.cases {
+    padding: 0 40px;
+}
+
+.cases-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+
+.cases-list {
+    list-style: none;
+    counter-reset: section;
+}
+
+.cases-item {
+    display: flex;
+    padding-bottom: 50px;
+    max-width: 1200px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #1a1a1a;
+    align-items: center;
+    position: relative;
+}
+
+.cases-item:last-child{
+    border-bottom: none;
+}
+
+.cases-item::before{
+    counter-increment: section;
+    content: '0' counter(section);
+    margin-right: 80px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.cases-info {
+}
+
+.cases-caption {
+    font-weight: 400;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.cases-descr{
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.fas {
+}
+
+.fa-arrow-right{
+    transform: scale(1.5);
+    opacity: 0.7;
+}
+
+.fa-arrow-right:hover{
+    transform: translate(10px) scale(1.7);
+}
+
+.arrow{
+    position: absolute;
+    right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1300px){
+    .hero-title{
+    font-size: 150px;
+    line-height: 150px;
+  }
+}
+
+@media (max-width: 1175px){
+    .hero-title{
+    font-size: 135px;
+    line-height: 135px;
+    }   
+    .hero-tip {
+    width: 120px;
+    height: 70px;
+    } 
+    .hero-caption {
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 3px;
+    }
+    .exercises-caption{
+        font-size: 40px;
+    }
+    .workout-title{
+        font-size: 90px;
+        line-height:  100px;
+        margin-right: 0;
+    }
+    .workout-descr{
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 460px;
+    }
+    .workout-info{
+        padding-left: 500px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .hero-container{
+        padding-top: 50px;
+        background: url('../img/content/hero.png') 80% 50% / 400px 400px  no-repeat;
+    }
+  .hero-title{
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .hero-descr{
+    max-width: 450px;
+  }
+  .header-container{
+    padding-bottom: 0;
+  }
+  .exercises-gallery{
+    grid-gap: 20px;
+  }
+  .exercises-info{
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
